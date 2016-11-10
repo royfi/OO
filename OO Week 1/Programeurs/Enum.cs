@@ -1,0 +1,1 @@
+﻿public enum Specialiteit {Java, Csharp, PHP, HTML}
