@@ -9,32 +9,23 @@ namespace Programeurs
 {
     public class Team
     {
-        public List<Programmeur> AddTeam()
+        List<Programmeur> programmeurs = new List<Programmeur>();
+
+        public void AddProgrammeurs(Programmeur p)
         {
-            List<Programmeur> team = new List<Programmeur>();
+            programmeurs.Add(p);
 
-            for (int i = 0; i < 4; i++)
-            {             
 
-                Console.WriteLine("Voer een Naam in!");
-                string naam = Console.ReadLine();
-                Console.WriteLine("Voer {0} zijn Programeer specialiteit in! ", naam);
+        }
 
-                string special = Console.ReadLine();
-                Specialiteit specialiteit = (Specialiteit)Enum.Parse(typeof(Specialiteit), special);
-
-                team.Add(new Programmeur(naam, specialiteit));
-
+        public void PrintAlleTeamleden(List<Programmeur> team)
+        {
+            foreach(Programmeur p in team)
+            {
+                p.PrintProgrammeur();
             }
-            return team;
-           
-        }
-        public void PrintTeam(List<Programmeur> team)
-        {
-
 
         }
-
 
     }
 }

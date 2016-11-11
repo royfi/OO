@@ -8,17 +8,17 @@ namespace Programeurs
 {
    public class Programmeur
     {
-        string Naam;
+        string naam;
         Specialiteit specialiteit;
 
-        public Programmeur(string Naam, Specialiteit specialiteit)
+        public Programmeur(string naam, Specialiteit specialiteit)
         {
-            this.Naam = Naam;
+            this.naam = naam;
             this.specialiteit = specialiteit;
         }
-        public void PrintProgrammeur(string Naam, Specialiteit specialiteit)
+        public void PrintProgrammeur()
         {
-            Console.WriteLine("Naam Programeur: {0} /n Specialiteit: {1}", Naam, specialiteit);
+            Console.WriteLine("Naam Programeur: {0} /n Specialiteit: {1}", naam, specialiteit);
         }
 
     }
