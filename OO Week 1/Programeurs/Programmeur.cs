@@ -18,7 +18,7 @@ namespace Programeurs
         }
         public void PrintProgrammeur()
         {
-            Console.WriteLine("Naam Programeur: {0} /n Specialiteit: {1}", naam, specialiteit);
+            Console.WriteLine("Naam Programeur: {0} \nSpecialiteit: {1} \n", naam, specialiteit);
         }
 
     }

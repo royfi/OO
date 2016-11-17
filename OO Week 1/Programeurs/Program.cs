@@ -24,6 +24,8 @@ namespace Programeurs
             team.AddProgrammeurs(new Programmeur("Quintus", Specialiteit.Java));
 
             team.PrintAlleTeamleden();
+
+            Console.ReadKey();
         }
     }
 }

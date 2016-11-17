@@ -9,16 +9,16 @@ namespace Programeurs
 {
     public class Team
     {
-        List<Programmeur> programmeurs = new List<Programmeur>();
+        List<Programmeur> team = new List<Programmeur>();
 
         public void AddProgrammeurs(Programmeur p)
         {
-            programmeurs.Add(p);
+            team.Add(p);
 
 
         }
 
-        public void PrintAlleTeamleden(List<Programmeur> team)
+        public void PrintAlleTeamleden()
         {
             foreach(Programmeur p in team)
             {
