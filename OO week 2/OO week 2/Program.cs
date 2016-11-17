@@ -17,8 +17,8 @@ namespace OO_week_2
             Console.WriteLine("class persoon: " + p2.naam + ", " + p2.leeftijd);
             Console.WriteLine();
 
-            WijzigLeeftijd(p1);
-            WijzigLeeftijd(p2);
+            WijzigLeeftijd(p1,p2);
+            // WijzigLeeftijd(p2);
 
             Console.WriteLine("struct persoon: " + p1.naam + ", " + p1.leeftijd);
             Console.WriteLine("class persoon: " + p2.naam + ", " + p2.leeftijd);
@@ -27,15 +27,19 @@ namespace OO_week_2
             Console.ReadKey();
         }
 
-        static void WijzigLeeftijd(PersoonStruct p)
-            {
-                p.leeftijd++;
-            }
-
-        static void WijzigLeeftijd(PersoonClass p)
+        static void WijzigLeeftijd(PersoonStruct p1 = null, PersoonClass p2 = null) // waarschijnlijk kan dit mooier en netter 
         {
-            p.leeftijd++;
+            if (p1 != null)
+            {
+                p1.leeftijd++;
+            }
+            if (p2 != null)
+            {
+                p2.leeftijd++;
+            }
         }
+
+      
         
     }
 
