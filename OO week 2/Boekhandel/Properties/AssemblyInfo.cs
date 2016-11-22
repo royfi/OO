@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Boekhandel")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Hogeschool Inholland")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Boekhandel")]
-[assembly: AssemblyCopyright("Copyright © Hogeschool Inholland 2016")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("75ace880-74d6-49c8-bb36-fd21b2585084")]
+[assembly: Guid("3fbed645-2b06-4692-a802-5990534302f3")]
 
 // Version information for an assembly consists of the following four values:
 //
