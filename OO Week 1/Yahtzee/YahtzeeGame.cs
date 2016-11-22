@@ -26,25 +26,29 @@ namespace Yahtzee
             {
                
                 dobbelstenen[i] = rnd.Next(1,6);
-                Console.WriteLine(dobbelstenen[i]);
+               
             }
-            
+             Console.WriteLine("Worp : {0} {1} {2} {3} {4}", dobbelstenen[0], dobbelstenen[1], dobbelstenen[2], dobbelstenen[3], dobbelstenen[4]);
 
         }
         public bool Yahtzee()
         {
            int checkYahtzee = dobbelstenen[1];
-           
+
             for (int i = 1; i < 5; i++)
             {
-                if(dobbelstenen[i] == checkYahtzee)
+                if (dobbelstenen[i] == checkYahtzee)
                 {
-                    return true;
-                }
-            
-            }
 
-           
+                }
+                else
+                {
+                    return false;
+                }
+                   
+               
+            }
+            return true;          
         }
 
     }
