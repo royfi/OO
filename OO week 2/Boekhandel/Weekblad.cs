@@ -18,7 +18,7 @@ namespace Boekhandel
 
         public override void Print()
         {
-            Console.WriteLine("{0} \n prijs : {1} \n Aantal Exemplaren : {2} \n Dag van uitgifte : {3}", titel, exemplaren, prijs, uitgifte);
+            Console.WriteLine(" {0} \n prijs : {1} \n Aantal Exemplaren : {2} \n Dag van uitgifte : {3} \n", titel, prijs, exemplaren, uitgifte);
         }
     }
 

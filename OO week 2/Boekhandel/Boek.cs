@@ -22,7 +22,7 @@ namespace Boekhandel
 
         public virtual void Print()
         {
-            Console.WriteLine("{0} \n prijs : {1} \n Aantal Exemplaren : {2}", titel, exemplaren, prijs);
+            Console.WriteLine(" {0} \n prijs : {1} \n Aantal Exemplaren : {2} \n", titel, prijs,exemplaren );
         }
 
         public int WijzigVoorraad(int wijziging)

@@ -14,15 +14,21 @@ namespace Boekhandel
             return bladen;
         }
 
-        public void VoegToe()
+        public List<Boek> VoegToe(Boek boek, List<Boek>bladen)
         {
-            
-           /* Boek boek = new Boek(); */
-
+           
+            bladen.Add(boek);
+            return bladen;
         }
-        public void PrintVoorraad()
+       
+
+        public void PrintVoorraad(List<Boek> bladen)
         {
-           // Console.WriteLine("Exemplaren : {0} \n Prijs : {1} ", int exemplaren , prijs); 
+            foreach(Boek boek in bladen)
+            { 
+
+            Console.WriteLine("Exemplaren : {0} \n Prijs : {1} ", boek.exemplaren , boek.prijs);
+            }
         }
 
 
