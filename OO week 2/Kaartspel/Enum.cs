@@ -1,0 +1,1 @@
+﻿public enum kaartType {Schoppen, Klaver, Harten, Ruiten }
