@@ -25,9 +25,9 @@ namespace Boekhandel
         public void PrintVoorraad(List<Boek> bladen)
         {
             foreach(Boek boek in bladen)
-            { 
+            {
 
-            Console.WriteLine("Exemplaren : {0} \n Prijs : {1} ", boek.exemplaren , boek.prijs);
+                boek.Print();
             }
         }
 

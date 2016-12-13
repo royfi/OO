@@ -23,7 +23,8 @@ namespace Yahtzee
             // vermeld aantal pogingen voor yahtzee
             Console.WriteLine("Aantal pogingen nodig: {0}", aantalPogingen);
             // wacht op gebruiker
-            Console.ReadKey();
+            Console.ReadKey();
+
         }
     }
 }

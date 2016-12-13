@@ -33,19 +33,15 @@ namespace Yahtzee
         }
         public bool Yahtzee()
         {
-           int checkYahtzee = dobbelstenen[1];
+           int checkYahtzee = dobbelstenen[0];
 
-            for (int i = 1; i < 5; i++)
+            for (int i = 0; i < 5; i++)
             {
-                if (dobbelstenen[i] == checkYahtzee)
-                {
-
-                }
-                else
+                if (dobbelstenen[i] != checkYahtzee)
                 {
                     return false;
                 }
-                   
+                                
                
             }
             return true;          

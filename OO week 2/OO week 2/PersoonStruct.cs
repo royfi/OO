@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OO_week_2
 {
-    public class PersoonStruct
+    public struct PersoonStruct
     {
         public string naam;
         public int leeftijd;
